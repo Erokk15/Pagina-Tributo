@@ -1,0 +1,48 @@
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+
+@media (min-width: 992px) {
+    #mainNav.navbar-shrink {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: transparent;
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+}
+
+header.masthead {
+    padding-top: 25rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url(https://cdn.pixabay.com/photo/2020/11/02/05/56/music-5705801_960_720.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 768px){
+    header.masthead {
+        padding-top: 30rem;
+        padding-bottom: 12.5rem;
+    }
+}
+
+p {
+    font-size: 100px;
+}
+
