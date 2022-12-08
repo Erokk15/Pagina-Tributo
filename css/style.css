@@ -44,6 +44,10 @@ header.masthead {
     }
 }
 
+header.masthead .container {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
 header.masthead h1 {
     font-size: 2rem;
     line-height: 2.5rem;
@@ -57,9 +61,7 @@ header.masthead h1 {
     }
 }
 
-header.masthead .container {
-    background-color: rgba(0, 0, 0, 0.6);
-}
+
 
 
 
