@@ -14,7 +14,6 @@
     }
 }
 
-
 @media (min-width: 992px) {
     #mainNav {
         padding-top: 1.5rem;
@@ -26,8 +25,8 @@
 }
 
 header.masthead {
-    padding-top: 13.5rem;
-    padding-bottom: 10rem;
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
     text-align: center;
     color: #fff;
     background-image: url(https://cdn.pixabay.com/photo/2020/11/02/05/56/music-5705801_960_720.jpg);
@@ -39,8 +38,8 @@ header.masthead {
 
 @media (min-width: 768px){
     header.masthead {
-        padding-top: 22.5rem;
-        padding-bottom: 17rem;
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
     }
 }
 
@@ -60,14 +59,3 @@ header.masthead .masthead-heading {
     line-height: 4rem;
     }
 }
-
-
-
-
-
-p {
-    font-size: 100px;
-}
-
-
-
