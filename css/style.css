@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Zen+Dots&display=swap'); 
+
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -24,8 +26,8 @@
 }
 
 header.masthead {
-    padding-top: 25rem;
-    padding-bottom: 6rem;
+    padding-top: 13.5rem;
+    padding-bottom: 10rem;
     text-align: center;
     color: #fff;
     background-image: url(https://cdn.pixabay.com/photo/2020/11/02/05/56/music-5705801_960_720.jpg);
@@ -37,12 +39,33 @@ header.masthead {
 
 @media (min-width: 768px){
     header.masthead {
-        padding-top: 30rem;
-        padding-bottom: 12.5rem;
+        padding-top: 22.5rem;
+        padding-bottom: 17rem;
     }
 }
+
+header.masthead h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family:'Zen Dots', cursive;
+}
+
+@media (min-width: 768px) {
+    header.masthead h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    }
+}
+
+header.masthead .container {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
 
 p {
     font-size: 100px;
 }
+
+
 
