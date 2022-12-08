@@ -48,14 +48,14 @@ header.masthead .container {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-header.masthead h1 {
+header.masthead .masthead-heading {
     font-size: 2rem;
     line-height: 2.5rem;
     font-family:'Zen Dots', cursive;
 }
 
 @media (min-width: 768px) {
-    header.masthead h1 {
+    header.masthead .masthead-heading {
     font-size: 3rem;
     line-height: 4rem;
     }
