@@ -60,35 +60,3 @@ header.masthead .masthead-heading {
     padding: 8rem 0;
 }
 
-
-.accordion-item {
-    border: none;
-    border-bottom: 1px solid #fff;
-    background-color: rgb(30, 29, 29);
-}
-
-.accordion-body {
-
-    color: white;
-}
-
-.accordion-button:not(.collapsed) {
-    background-color: #373737;
-    color: #fff;
-}
-
-.accordion-button {
-    background-color: #373737;
-    color: #fff;
-}
-
-.accordion-button:focus{
-    box-shadow: none;
-    background-color: #373737;
-    color: #fff;
-}
-
-h1 {
-    font-family:'Zen Dots', cursive;
-}
-
