@@ -29,7 +29,7 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url(https://cdn.pixabay.com/photo/2020/11/02/05/56/music-5705801_960_720.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.8) 100%),url(https://cdn.pixabay.com/photo/2020/11/02/05/56/music-5705801_960_720.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -41,10 +41,6 @@ header.masthead {
         padding-top: 17rem;
         padding-bottom: 12.5rem;
     }
-}
-
-header.masthead .container {
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 header.masthead .masthead-heading {
@@ -59,3 +55,40 @@ header.masthead .masthead-heading {
     line-height: 4rem;
     }
 }
+
+.page-section {
+    padding: 8rem 0;
+}
+
+
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: rgb(30, 29, 29);
+}
+
+.accordion-body {
+
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #373737;
+    color: #fff;
+}
+
+.accordion-button {
+    background-color: #373737;
+    color: #fff;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    background-color: #373737;
+    color: #fff;
+}
+
+h1 {
+    font-family:'Zen Dots', cursive;
+}
+
